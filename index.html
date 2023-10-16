@@ -5,9 +5,10 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Marcos - Portifolio</title>
-	<link rel="shortcut icon" href="imagens/cpu.png" type="image/x-icon">
+	<title>Marcos - Portfolio</title>
+	<link rel="shortcut icon" href="imagens/caligrafia.png" type="image/x-icon">
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,600,700,800" rel="stylesheet">
 	
 	<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
@@ -31,53 +32,94 @@
 		
 		<section>
 			<div class="container">
-				<p>Hello, I'm Marcos Vinícius a freelance manga letterer, I've been a freelance for 3 years, but I have about 5 years of experience with lettering.
+				<p>Hello, I'm Marcos Vinícius a freelance manga letterer, I've been a freelance for 3 years, but I have about 5 years of experience with lettering.</p>
 			</div>
 		</section>
 		<h2>PastWorks:</h2>
 		<section>
 			<div class="swiper mySwiper">
 				<div class="swiper-wrapper">
-					<div class="swiper-slide">
-						<img src="imagens\raw1.png" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\edit1.png" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\raw2.png" alt="">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\edit2.png">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\raw3.png">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\edit3.png">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\raw4.png">
-					</div>
-					<div class="swiper-slide">
-						<img src="imagens\edit4.png">
-					</div>
-
+				  <div class="swiper-slide"><img src="imagens/edit6.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit2.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit3.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit8.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit5.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit1.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit7.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit4.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit9.png" alt=""></div>
+				  <div class="swiper-slide"><img src="imagens/edit10.png" alt=""></div>
 				</div>
-				<div class="swiper-button-next"></div>
-				<div class="swiper-button-prev"></div>
-				<div class="swiper-pagination"></div>
-			</div>
+			  </div>
+
+			<script
+  defer
+  src="script.js"
+></script>
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/img-comparison-slider@7/dist/styles.css"
+/>
+<h2 class="comp">Comparison</h2>
+<div class="container">
+<div class="overlay" onmousedown="hideElement1()" ><h3 class="hide" >MOVE THE LINE</h3></div>
+	<img-comparison-slider id="mySlider" value="50">
+  <img id="mudanca" slot="first" src="imagens/raw1.png" />
+  <img id="mudanca" slot="second" src="imagens/edit1.png" />
+	</img-comparison-slider>
+	<img-comparison-slider id="mySlider" value="50">
+  <img id="mudanca" slot="first" src="imagens/raw5.png" />
+  <img id="mudanca" slot="second" src="imagens/edit5.png" />
+	</img-comparison-slider>
+	<img-comparison-slider id="mySlider" value="50">
+  <img id="mudanca" slot="first" src="imagens/raw8.png" />
+  <img id="mudanca" slot="second" src="imagens/edit8.png" />
+	</img-comparison-slider>
+	<img-comparison-slider id="mySlider" value="50">
+  <img id="mudanca" slot="first" src="imagens/raw4.png" />
+  <img id="mudanca" slot="second" src="imagens/edit4.png" />
+	</img-comparison-slider>
+	<img-comparison-slider id="mySlider" value="50">
+	<img id="mudanca" slot="first" src="imagens/raw2.png" />
+	<img id="mudanca" slot="second" src="imagens/edit2.png" />
+	  </img-comparison-slider>
+	  <img-comparison-slider id="mySlider" value="50">
+	<img id="mudanca" slot="first" src="imagens/raw6.png" />
+	<img id="mudanca" slot="second" src="imagens/edit6.png" />
+	  </img-comparison-slider>
+	  <img-comparison-slider id="mySlider" value="50">
+	  <img id="mudanca" slot="first" src="imagens/raw7.png" />
+	  <img id="mudanca" slot="second" src="imagens/edit7.png" />
+		</img-comparison-slider>
+		<img-comparison-slider id="mySlider" value="50">
+	  <img id="mudanca" slot="first" src="imagens/raw3.png" />
+	  <img id="mudanca" slot="second" src="imagens/edit3.png" />
+		</img-comparison-slider>
+		<img-comparison-slider id="mySlider" value="50">
+		<img id="mudanca" slot="first" src="imagens/raw9.png" />
+		<img id="mudanca" slot="second" src="imagens/edit9.png" />
+		  </img-comparison-slider>
+		  <img-comparison-slider id="mySlider" value="50">
+		<img id="mudanca" slot="first" src="imagens/raw10.png" />
+		<img id="mudanca" slot="second" src="imagens/edit10.png" />
+		  </img-comparison-slider>
+
+	
+	
+	
+  </div>
 		</section>
 	</main>
 
 	<footer>
 		<p>&copy; 2023 Marcos Vinicius. All rights reserved.</p>
 	</footer>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 	<script src="script.js"></script>
-	<script src="noticia.js"></script>
-	<script src="carrinho.js"></script>
+	<script
+  	defer
+  	src="https://unpkg.com/img-comparison-slider@7/dist/index.js"
+	></script>
 </body>
 
 </html>
