@@ -102,6 +102,12 @@ h2 {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+h4 {
+  line-height: 30%;
+  color: rgb(48, 131, 255);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
 	background-color: #1a1a1a;
 	color: #fff;
